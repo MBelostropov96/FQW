@@ -1,0 +1,1175 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+html, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+body{
+    background: #bed4de;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.col-created {
+    padding: 0px;
+}
+/*
+---------------------------------------------------- BTN-LINK ----------------------------------------------
+*/
+.mes-text .btn-link {
+    background: white;
+    color: black;
+    display: block;
+    margin: 10px auto -10px;
+    border: 1px solid #313f5b;
+    border-radius: 0px;
+    text-decoration: none;
+    width: 30%;
+}
+.mes-text .btn-link:hover {
+    background: #e2e7f3;
+}
+/*
+---------------------------------------------------- ДОСТУП ----------------------------------------------
+*/
+.errAdm {
+    padding: 0px;
+    background: white;
+    min-height: 700px;
+}
+.errAdm h4 {
+    color: darkred;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+.errAdm h5 {
+    color: darkred;
+    font-weight: 600;
+    text-align: center;
+}
+.errAdm a {
+    color: red;
+    text-decoration: underline;
+    font-size: 1em;
+    font-weight: 400;
+}
+/*
+   --------------------------------------------------- HEADER ---------------------------------------------
+*/
+header {
+    background: #313f5b;
+    height: 150px;
+}
+header * {
+    color: white;
+}
+header .logo {
+    padding: 20px 20px 0px 0px;
+}
+header h1 {
+    padding-top: 8px;
+    float: right;
+    font-size: 1.35em;
+}
+header .container-tabs {
+    padding-right: 0px;
+}
+header .contact {
+    height: 75px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header .con1 {
+    padding: 24px 0px 0px 0px;
+    font-size: 1.1em;
+}
+header .con2 {
+    padding: 24px 0px 0px 0px;
+    font-size: 1.1em;
+}
+header .con3 {
+    padding: 24px 0px 0px 30px;
+    font-size: 1.1em;
+}
+header .tabs {
+background: #e2e7f3;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 62px;
+}
+header .col2, .exit {
+    cursor: pointer;
+}
+header .fa-user {
+    color: black;
+}
+header .exit {
+    position: relative;
+    height: 45px;
+    text-align: center;
+    font-size: 1.1em;
+    background: #e2e7f3;
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+    margin: 15px 0px;
+}
+header .ul_exit {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 45px;
+    z-index: 111;
+    padding: 0px;
+    margin: 0px 0px 0px -8px;
+}
+header .exit:hover > .ul_exit {
+display: inherit;
+}
+header .li_exit {
+    float: right;
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #343a40;
+    color: #e2e7f3;
+    list-style-type: none;
+    padding-top: 7px;
+    font-weight: 400;
+    border: 2px solid;
+}
+header .li_exit a:hover {
+    /*font-size: 1.1em;*/
+    padding-left: 5px;
+    transition: all .3s;
+}
+header .ul_exit a {
+display: block;
+font-size: 1em;
+text-decoration: none;
+color: #e2e7f3;
+float: left;
+width: 100%;
+height: 100%;
+}
+
+header .ul_bot {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+header .li_bot {
+float: left;
+position: relative;
+width: 16.667%;
+text-align: center;
+}
+header .li_bot a {
+display: block;
+font-size: 1.1em;
+font-weight: 600;
+text-decoration: none;
+color: black;
+padding: 18px;
+}
+header .li_bot a:hover {
+color: white;
+transition: 0.3s;
+background: #313f5b;
+}
+header .btn-outline-secondary {
+color: black;
+border-color: black;
+}
+header .user {
+padding: 0px;
+}
+header .btn {
+border: 0rem solid;
+background-color: #e2e7f3;
+border-radius: 0px;
+margin-top: 17px;
+font-weight: 600;
+line-height: 1.5;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+font-size: 1.1em;
+width: 100%;
+height: 40px;
+}
+header .user button:hover {
+background-color: #313f5b;
+color: white;
+box-shadow: 0 0 0 4px #e2e7f3;
+transition: all .3s;
+}
+header .bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: red!important;
+    border-radius: 0px;
+}
+/*
+---------------------------------------------------- FOOTER ----------------------------------------------
+*/
+.footer {
+    background: #272727;
+    color: white;
+    position: relative;
+    height: 353px;
+}
+.footer .footer-section {
+    padding: 20px;
+}
+.footer h3 {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.footer .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0px;
+}
+.footer .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+.footer .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.97em;
+    transition: all .3s;
+    color: white;
+    text-decoration: none;
+}
+.footer .links ul a:hover {
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+.footer .contact-form .contact-input {
+    background: #343a40;
+    color: #bebdbd;
+    margin-top: 7px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+    width: 100%;
+}
+.footer .contact-form .contact-text {
+    height: 125px;
+}
+.footer .contact-form .contact-input:focus {
+    background: #1a1a1a;
+}
+.footer .contact-form .contact-btn {
+    float: right;
+    margin-top: -7px;
+    font-size: 1.1em;
+    background-color: #272727;
+    border: 1.5px solid #bebdbd;
+    color: #bebdbd;
+}
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 7px;
+}
+/*
+.footer .contact-form {
+    height: 100px;
+}
+*/
+/*
+  ------------------------------------------------------  CAROUSEL ---------------------------------------------
+*/
+.index-caroules .carousel, .carousel-inner, .carousel-item {
+    height: 580px;
+    background: black;
+}
+.index-caroules .carousel-inner .carousel-item img {
+    opacity: 0.8;
+}
+.index-caroules .carousel-caption h5 {
+    font-size: 2em;
+    font-weight: 900;
+    max-width: 100%;
+    padding: 30px;
+    text-shadow: 3px 3px 3px #000;
+}
+.index-caroules .carousel-caption p {
+    font-size: 1.3em;
+    max-width: 100%;
+    font-weight: 600;
+    text-shadow: 2px 0 1px #212121,
+    0 2px 1px #212121,
+    -2px 0 1px #212121,
+    0 -2px 1px #212121;
+}
+.index-caroules .carousel-caption-hack {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    padding-bottom: 0rem;
+    width: 100%;
+}
+/*
+-------------------------------------------------- BODY INDEX -----------------------------------------------
+ */
+.container .body-index {
+    background-color: white;
+    margin: 0px;
+}
+/*
+-------------------------------------------------- 102 PRODUCTION ---------------------------------------
+ */
+.con-102 {
+    background: white;
+    min-height: 700px;
+    margin-bottom: -13px;
+}
+.con-102 h2 {
+    text-align: center;
+    line-height: 2em;
+    color: #313f5b;
+    font-weight: 600;
+    border-bottom: 3px solid #313f5b;
+    margin: 0px 0px 10px 0px;
+}
+.con-102 h4 {
+    padding-left: 20px;
+    color: #313f5b;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.con-102 .row-102-top {
+    margin: 0px 30px;
+}
+.con-102 .row-102-bot {
+    border-bottom: 2px solid #313f5b;
+    margin: 0px 30px;
+    background: #e2e7f3;
+    height: 60px;
+}
+.con-102 .col-description {
+    padding: 10px 40px 10px 60px;
+}
+.con-102 .col-img-102 {
+    height: 250px;
+    padding: 20px 0px;
+}
+.con-102 .img-102 {
+    max-width: 300px;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.con-102 .row-101-top {
+    margin: 10px 20px;
+    border-bottom: 2px solid #313f5b;
+}
+.con-102 .col101-description {
+    padding: 0px 0px 10px 30px;
+    position: relative;
+}
+.col101-description .index-news {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.col101-description h6 {
+    color: black;
+    text-align: right;
+}
+.con-102 .col-img-101 {
+    max-height: 300px;
+}
+.con-102 .img-101 {
+    padding-bottom: 10px;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+.con-102 .quantity-102 {
+    padding: 13px 20px;
+    font-size: 1.2em;
+}
+.con-102 .button-102 {
+    background: white;
+    color: #313f5b;
+    border: 2px solid #313f5b;
+    border-radius: 0px;
+    margin: 9px 30px;
+    width: 200px;
+    float: right;
+}
+.con-102 .button-102:hover {
+    background: #313f5b;
+    color: #e2e7f3;
+}
+/*
+-------------------------------------------------- PRODUCTS ORDER -----------------------------------------
+ */
+.prod-order {
+    background: url("../images/vac2.jpg")!important;
+    background-size: cover!important;
+    padding: 0px!important;
+    background-position: center!important;
+    position: relative!important;
+    min-height: 1100px!important;
+}
+
+/*
+-------------------------------------------------- ACCORDION 103 -----------------------------------------------
+ */
+.con-103 {
+    padding: 0px;
+    background-color: white;
+}
+.bd-example .accordion {
+    padding: 0px 100px 40px;
+}
+.bd-example .accordion-button {
+    background-color: #bbb;
+    color: black;
+}
+.bd-example .accordion-body {
+    background-color: #e2e7f3;
+    padding: 10px 10px 10px 10px;
+}
+.con-103 h2 {
+    margin: 0px;
+    padding: 30px 80px 30px 100px;
+    font-size: 1.7em;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+.con-103 .accordion-button:hover {
+    background-color: #313f5b;
+    color: white;
+    transition: all .3s;
+}
+.con-103 .accordion-button:focus {
+    z-index: 3;
+    border-color: #313f5b;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(49 63 91 / 100%);
+}
+.con-103 .accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: calc(0rem - 0px);
+}
+.con-103 .accordion-item:first-of-type .accordion-button {
+    border-radius: calc(0rem - 0px);
+}
+/*
+-------------------------------------------------- 103 SERVICE ---------------------------------------
+ */
+.con-103 .btn-outline-secondary {
+    color: black;
+    border-color: black;
+}
+.con-103 .btn {
+    color: white;
+    background-color: #313f5b;
+    border-radius: 0px;
+    margin: 10px 0px 0px 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px solid;
+    padding: 0.5em 1.2em;
+    font-size: 1rem;
+}
+.con-103 button:hover {
+    background-color: #bbb;
+    color: #313f5b;
+    box-shadow: 0 0 0 4px #313f5b;
+    transition: all .3s;
+}
+/*
+-------------------------------------------------- VACANTION 105 -----------------------------------------------
+*/
+.con-105 h2 {
+    margin: 0px 0px 20px 0px;
+    padding: 30px 80px 30px 100px;
+    font-size: 1.7em;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 2px solid #bbb;
+}
+.con-105 {
+    padding: 0px;
+    background-color: white;
+}
+.col-105 {
+    padding: 0px 10px 0px 30px;
+}
+.con-105 .ct-hack{
+    height: 366px;
+}
+.con-105 .text-105 {
+}
+.con-105 .text-105 h3 {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    padding: 15px 0px 0px 0px;
+    font-size: 1.5em;
+}
+.con-105 .text-105 p {
+    padding: 5px 0px 0px 15px;
+}
+.con-105 .accordion {
+    padding: 0px 20px 10px 0px
+}
+.con-105 .accordion-button:focus {
+    z-index: 3;
+    border-color: #313f5b;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(49 63 91 / 100%);
+}
+.con-105 .accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: calc(0rem - 0px);
+}
+.con-105 .accordion-item:first-of-type .accordion-button {
+    border-radius: calc(0rem - 0px);
+}
+.con-105 .last-text-105 {
+    padding: 26px 100px 20px 100px;
+    border-top: 2px solid #bbb;
+    text-align: center;
+}
+.con-105 .last-text-105 h3 {
+    color: black;
+    font-size: 1.3em;
+}
+.con-105 .last-text-105 h3 a {
+    font-weight: 600;
+}
+.con-105 .last-text-105 h3 a:hover {
+    color: #313f5b;
+}
+.con-105 .btn-outline-secondary {
+    color: black;
+    border-color: black;
+}
+.con-105 .btn {
+    color: white;
+    background-color: #313f5b;
+    border-radius: 0px;
+    margin: 10px 0px 5px 0px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px solid;
+    padding: 0.5em 1.2em;
+    font-size: 1.2rem;
+}
+.con-105 button:hover {
+    background-color: #bbb;
+    color: #313f5b;
+    box-shadow: 0 0 0 4px #313f5b;
+    transition: all .3s;
+}
+/*
+--------------------------------------- REGISTRATION ---------------------------------------------------
+ */
+.registration {
+    background: url("../images/6.jpg");
+    background-size: cover;
+    padding: 0px;
+    background-position: center;
+    position: relative;
+    min-height: 600px;
+}
+.container .reg {
+    width: 50%;
+    margin: 0px;
+}
+.registration .justify-content-center {
+    margin: 20px 50%;
+    justify-content: center;
+    padding: 15px;
+    border: 3px solid #313f5b;
+    background: rgba(226, 231, 243, .9);
+}
+.registration .justify-content-center-2 {
+    margin: 100px 50%;
+    justify-content: center;
+    padding: 15px;
+    border: 3px solid #313f5b;
+    background: rgba(226, 231, 243, .9);
+}
+.registration h2 {
+    color: black;
+    font-weight: 700;
+}
+.registration .element-form {
+    padding: 0px 10px;
+    opacity: 100%;
+}
+.form-check .form-check-input {
+    margin: 0.25em 10px 0px -7px;
+}
+.registration .organ {
+    width: 460px;
+}
+.registration .form-label {
+    margin: 0px;
+    font-size: 1.1em;
+    padding-left: 3px;
+}
+.registration .form-text {
+    margin: 0px 0px 10px 4px;
+    color: red;
+}
+.registration .form-control, .form-select {
+    border-radius: 0px;
+}
+.registration .form-control:focus {
+    z-index: 3;
+    border-color: #313f5b;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(49 63 91 / 100%);
+}
+.registration .form-select:focus, .form-check-input:focus {
+    border: 0px solid;
+    box-shadow: 0 0 0 0px rgb(49 63 91 / 100%);
+}
+.registration .btn-outline-secondary {
+    color: black;
+    border-color: black;
+}
+.registration .btn {
+    color: white;
+    background-color: #313f5b;
+    border-radius: 0px;
+    margin: 20px 0px 10px 0px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px solid;
+    padding: 0.5em 1.2em;
+    font-size: 1.2rem;
+}
+.registration button:hover {
+    background-color: #bbb;
+    color: #313f5b;
+    box-shadow: 0 0 0 4px #313f5b;
+    transition: all .3s;
+}
+.registration .reg-log {
+    margin-top: 30px;
+    padding-right: 0px;
+}
+.registration .reg-log a {
+    font-size: 1.3em;
+    float: right;
+    text-decoration: underline;
+    color: #313f5b;
+}
+.registration .reg-log a:hover {
+    text-decoration: none;
+    color: #0d6efd;
+}
+/*
+----------------------------------------- SERVICE -----------------------------------------
+ */
+.service {
+    background: url("../images/vac5.jpg");
+    background-size: cover;
+    padding: 0px;
+    background-position: center;
+    position: relative;
+}
+.service .reg {
+    width: 50%;
+    margin: 0px;
+}
+.service .justify-content-center {
+    margin: 20px 50%;
+    padding: 15px;
+    border: 3px solid #313f5b;
+    background: rgba(226, 231, 243, .9);
+}
+.service h2 {
+    color: black;
+    font-weight: 700;
+}
+.service .element-form {
+    padding: 0px 10px;
+    opacity: 100%;
+    margin-top: 10px;
+}
+.service .form-check-input {
+    margin: 0.25em 10px 0px -7px;
+}
+.service .organ {
+    width: 460px;
+}
+.service .form-label {
+    margin: 0px;
+    font-size: 1.1em;
+    padding-left: 3px;
+}
+.service .form-text {
+    margin: 0px 0px 10px 4px;
+    color: red;
+}
+.service .form-control, .form-select {
+    border-radius: 0px;
+}
+.service .form-control:focus {
+    z-index: 3;
+    border-color: #313f5b;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(49 63 91 / 100%);
+}
+.service .form-select:focus, .form-check-input:focus {
+    border: 0px solid;
+    box-shadow: 0 0 0 0px rgb(49 63 91 / 100%);
+}
+.service .btn-outline-secondary {
+    color: black;
+    border-color: black;
+}
+.service .btn {
+    color: white;
+    background-color: #313f5b;
+    border-radius: 0px;
+    margin: 20px 0px 10px 0px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px solid;
+    padding: 0.5em 1.2em;
+    font-size: 1.2rem;
+}
+.service button:hover {
+    background-color: #bbb;
+    color: #313f5b;
+    box-shadow: 0 0 0 2px #313f5b;
+    transition: all .3s;
+}
+.service .reg-log {
+    margin-top: 30px;
+    padding-right: 0px;
+}
+.service .reg-log a {
+    font-size: 1.3em;
+    float: right;
+    text-decoration: underline;
+    color: #313f5b;
+}
+.service .reg-log a:hover {
+    text-decoration: none;
+    color: #0d6efd;
+}
+/*
+----------------------------------------- КОНТРАКТ -----------------------------------------
+ */
+.service-contract {
+    background: white !important
+}
+/*
+----------------------------------------- MESSAGE -----------------------------------------
+ */
+.body-message {
+    background: white;
+    padding: 0px;
+}
+.body-message .row-message {
+    margin: 0px;
+    min-height: 700px;
+}
+.body-message .left-message {
+    padding: 20px;
+    background: #e2e7f3;
+}
+.body-message h3 {
+    color: black;
+    font-weight: 600;
+}
+.body-message ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.body-message ul li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #313f5b;
+}
+.body-message ul li:hover {
+    padding-left: 15px;
+    transition: all 0.3s;
+}
+.body-message ul li a {
+    display: block;
+}
+.body-message ul li a:hover {
+    color: black;
+}
+.right-message {
+    padding: 35px;
+}
+.right-message .row-theme {
+    background: #e2e7f3;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+}
+.right-message .row-mes {
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+    border-bottom: 2px solid #e2e7f3;
+}
+.right-message .shell-message {
+    padding: 0px;
+}
+.right-message .theme-mes {
+    border-bottom: 3px solid #313f5b;
+}
+/*
+.right-message a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+ */
+.right-message .for-link {
+    padding: 5px;
+    z-index: 6;
+}
+.right-message .but-check {
+    border-radius: 0px;
+    background: #313f5b;
+    border-color: #313f5b;
+    float: right;
+    height: 30px;
+    font-size: 0.8em;
+    line-height: 0px;
+    width: 80%;
+}
+.right-message .but-check:focus {
+    box-shadow: 0 0 0 1px rgb(49 63 91 / 10%);
+}
+.row-message .row-uncheck {
+    background: rgb(0 0 0 / 20%);
+    height: 40px;
+    margin: -40px 0px;
+}
+.row-message .row-uncheck .fa-envelope {
+    font-size: 1.2em;
+    color: #313f5b;
+    margin: 12px -50px;
+    position: relative;
+}
+.body-message .bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #313f5b!important;
+    border-radius: 0px;
+    float: right;
+    margin: 15px;
+}
+/*
+----------------------------------------- MESSAGE CHECK -----------------------------------------
+ */
+.mes-check p {
+    color: black;
+    line-height: 2em;
+    margin: 0px;
+}
+.mes-check .mes-text {
+    border: 1px solid black;
+    padding: 7px;
+    margin: 5px 0px;
+}
+.mes-check .but-mes-answer {
+    width: 150px;
+    border-radius: 0px;
+}
+.mes-check .but-mes-delete {
+    background: #dc3545;
+    width: 150px;
+    border-radius: 0px;
+    border-color: #dc3545;
+}
+.mes-check .but-mes-delete:hover{
+    background: darkred;
+    width: 150px;
+    border-radius: 0px;
+    border-color: darkred;
+}
+.right-message .mes-back a {
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+    float: left;
+    color: #313f5b;
+}
+.right-message .mes-back a:hover {
+    color: rgba(49, 63, 91, 0.8);
+}
+/*
+----------------------------------------- MESSAGE NEW -----------------------------------------
+ */
+.right-message .row-info-new p {
+    width: 8%;
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    line-height: 35px;
+}
+.right-message .form-control-red {
+    width: 92%;
+    padding: 0px;
+    border: 0px solid #ced4da;
+    border-radius: 0px;
+    border-bottom: 1px solid #313f5b;
+}
+.right-message .form-control-red {
+    box-shadow: 0 0 0 0px rgb(49 63 91 / 100%);
+}
+.right-message .form-control-text {
+    padding: 10px;
+    border: 1px solid #313f5b;
+    border-radius: 0px;
+}
+.right-message .form-control-text:focus {
+    box-shadow: 0 0 0 1px rgb(49 63 91 / 100%);
+}
+.right-message .button-new-message {
+    background: #e2e7f3;
+    color: #313f5b;
+    border-color: #313f5b;
+    border-radius: 0px;
+    margin-left: -12px;
+}
+.right-message .button-new-message:hover {
+    background: #313f5b;
+    color: #e2e7f3;
+}
+/*
+----------------------------------------- CONTRACT -----------------------------------------
+ */
+.service-contract .contract {
+    width: 80%;
+    margin: 0px;
+}
+.contract .contract-block {
+    margin: 20px 12.5%;
+    padding: 15px;
+    border: 3px solid #313f5b;
+    background: rgba(226, 231, 243, .9);
+}
+.contract .block-form {
+    border: 1px solid #313f5b;
+    margin: 5px 0px;
+    padding: 0px 0px 15px
+}
+.contract-block h5 {
+    color: #313f5b;
+    font-weight: 600;
+    margin: 15px 0px 0px 0px;
+}
+.contract-block .tire {
+    width: 0px;
+    padding: 0px;
+    margin: 42px 4px 0px -4px;
+}
+
+/*
+----------------------------------------- CONTRACT CHECK USER -----------------------------------------
+ */
+.contract_check {
+    padding-bottom: 20px;
+}
+.accordion_contract {
+    width: 80%;
+    margin: 20px auto 0px;
+}
+.accordion_contract h4 {
+    color: #313f5b;
+    font-weight: 600;
+    background: #aaaaaa;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.accordion_contract h5 {
+    color: #313f5b;
+    font-weight: 600;
+}
+.accordion_contract .contrh5 {
+    margin-top: 30px;
+}
+.accordion_contract h6 {
+    color: black;
+}
+.accordion_contract .accordion-item:first-of-type, .accordion-item:last-of-type {
+    border: 0px
+}
+.accordion_contract .ac-1, .b-1 {
+    background: rgb(184 210 186);
+}
+.accordion_contract .b-1 {
+    padding: 5px 13px;
+}
+.accordion_contract .b-2 {
+    padding: 5px 0px;
+}
+.accordion_contract .pad-2 {
+    padding: 0px 13px;
+}
+.accordion_contract .ac-2, .b-2 {
+    background: rgb(210, 184, 184);
+}
+.accordion_contract .accordion-item:first-of-type .accordion-button {
+    border-radius: 0px;
+    background: darkgreen;
+    border: 0px;
+    width: 400px;
+    color: white;
+    font-size: 0.6em;
+    margin: 0px auto;
+}
+.accordion_contract .accordion-item:last-of-type .accordion-button {
+    border-radius: 0px;
+    background: darkred;
+    border: 0px;
+    width: 400px;
+    color: white;
+    font-size: 0.6em;
+    margin: 0px auto;
+}
+.accordion_contract .accordion-button:hover, .accordion-button:focus {
+    box-shadow: 0 0 0 0px rgb(49 63 91);
+}
+.accordion_contract .accordion-button::after {
+    height: 0rem;
+}
+.accordion_contract .input-img {
+    border: 2px solid #313f5b;
+    margin-left: 13px;
+}
+/*
+----------------------------------------- PRODUCT -----------------------------------------
+ */
+.shop {
+    border: 3px solid #313f5b;
+    margin: 10px;
+    padding: 5px 0px 10px 0px;
+}
+.shop .row-shop {
+    border-bottom: 1px solid #313f5b;
+}
+.shop .row {
+    margin: 10px;
+}
+.shop h4 {
+    color: #313f5b;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.shop .button-shop-del {
+    background: #d69999;
+    height: 25px;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    border: 1px solid #313f5b;
+    float: right;
+}
+.shop .button-shop-del:hover {
+    background: #d69999;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    border: 1px solid darkred;
+    float: right;
+    color: black;
+    box-shadow: 0 0 0 1px darkred;
+}
+.shop .button-shop-new {
+    background: #d2d6e2;
+    height: 35px;
+    font-size: 1em;
+    margin: 0px 10px;
+    color: #313f5b;
+    font-weight: 600;
+    border: 3px solid #313f5b;
+    float: right;
+}
+.shop .button-shop-new:hover {
+    background: #313f5b;
+    margin: 0px 10px;
+    float: right;
+    color: #d2d6e2;
+    border: 3px solid #313f5b;
+    box-shadow: 0 0 0 0px darkred;
+}
+.form-app-prod .col-10 {
+    padding: 0px;
+    margin-top: 10px;
+}
+.form-app-prod .col-2 {
+    padding: 0px;
+}
+.form-app-prod .col-2 .element-form {
+    padding-right: 0px;
+}
+.form-app-prod .col-2 label {
+     margin-left: -5px;
+ }
+/*
+----------------------------------------- 106 -----------------------------------------
+ */
+.con-106 {
+    background: white;
+    min-height: 700px;
+    margin-bottom: -13px;
+}
+.con-106 .head-div {
+    padding: 15px 0px;
+    margin: 0px auto;
+}
+.con-106 .contact-1 {
+    border-bottom: 3px solid #313f5b;
+}
+.con-106 .contact-2 {
+    border-bottom: 2px solid #313f5b;
+}
+.con-106 .contact-3 {
+    border-top: 3px solid #313f5b;
+    margin: -2px;
+    padding: 10px;
+}
+.con-106 .maps {
+    margin: 0px auto;
+}
